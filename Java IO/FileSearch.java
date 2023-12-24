@@ -7,7 +7,7 @@ public class FileSearch
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter file Path:");
         String path=sc.nextLine();
-        
+    
         File directory=new File(path);
         if(directory.isDirectory())
         {

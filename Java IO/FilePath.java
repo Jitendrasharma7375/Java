@@ -19,7 +19,6 @@ public class FilePath {
             System.out.println(fname+" "+lname+" "+age+" ");
         }
         sc.close();
-         
     }
     
 }

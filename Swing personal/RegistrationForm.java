@@ -179,7 +179,7 @@ class MyFrame extends JFrame implements ActionListener,MouseListener
                 if(x==100)
                 {
                     w.dispose();
-                    MyFrame.this.setVisible(true);
+                    MyFrame1.this.setVisible(true);
                     timer.stop();
                 }
                 else 
@@ -272,7 +272,7 @@ class MyFrame extends JFrame implements ActionListener,MouseListener
 
 public class RegistrationForm {
     public static void main(String[] args) {
-        MyFrame frame=new MyFrame();
+        MyFrame1 frame=new MyFrame1();
         //frame.setVisible(true);
     } 
 }

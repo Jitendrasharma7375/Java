@@ -25,5 +25,11 @@
         "lib/**/*.jar",
         "JDBC/mysql-connector-j-8.0.33.jar",
         "c:\\Program Files\\Java\\jdk-20\\mysql-connector-j-8.0.33.jar"
-    ]
+    ],
+    "C_Cpp.errorSquiggles": "enabled",
+    
+    "a-file-icon-vscode.arrowTheme": "material",
+    "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx2G -Xms100m -Xlog:disable",
+    "python.analysis.autoImportCompletions": false,
+    "python.analysis.typeCheckingMode": "basic"
 }

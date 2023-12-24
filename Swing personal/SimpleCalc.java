@@ -80,7 +80,6 @@ class MyFrame extends JFrame implements ActionListener
         this.c.add(t3);
     }
 
-
     @Override
     public void actionPerformed(ActionEvent e)
     {

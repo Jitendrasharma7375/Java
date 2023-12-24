@@ -5,7 +5,6 @@ import javax.swing.*;
 
 class JPasswordDemo //implements ActionListener
 {
-
     public static void main(String[] args) {
         JFrame frame=new JFrame("JLabel Demo");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

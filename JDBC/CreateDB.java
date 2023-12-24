@@ -15,9 +15,11 @@ public class CreateDB {
                 while(rs.next()){
                     System.out.println(rs.getString(1));
                 }
+                connection.close();
             } catch (SQLException | ClassNotFoundException e) {
                 System.out.println("Connection unsuccessful "+e.getMessage());
             }
+            
         
     }
 }

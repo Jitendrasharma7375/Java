@@ -8,13 +8,13 @@ import javax.swing.Icon;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 
-class MyFrame extends JFrame implements ActionListener {
+class MyFrame1 extends JFrame implements ActionListener {
    private Container c = this.getContentPane();
    private JButton btn;
    private JButton btn1;
    private JButton btn2;
 
-   MyFrame() {
+   MyFrame1() {
       this.c.setLayout((LayoutManager)null);
       this.btn = new JButton("Yellow", (Icon)null);
       this.btn.setBounds(120, 95, 90, 30);

@@ -9,7 +9,6 @@ public class WebpageDownloader {
     public static void main(String[] args)
      {
         String url = "https://vitbhopal.ac.in";  
-
         try {
             URL webpageUrl = new URL(url);
             URLConnection connection = webpageUrl.openConnection();

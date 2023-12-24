@@ -16,19 +16,19 @@ public class Calculator extends JFrame implements ActionListener {
     private JLabel label;
    
     public Calculator()
-    {
+    { 
         this.setTitle("Calculator");
         this.setVisible(true);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setBounds(100,100,250,300);
 
-
+        
         input1=new JTextField(10);
         label=new JLabel("+");
-        this.add(label);
-       // input1.addFocusListener(new FocusListener());
+        //this.add(label);
+       //input1.addFocusListener(new FocusListener());
         input2=new JTextField(10);
-       // input2.addFocusListener(new FocusListener());
+       //input2.addFocusListener(new FocusListener());
         input3=new JTextField(20);
         flow1=new FlowLayout(FlowLayout.CENTER,0, 5);
         this.setLayout(flow1);

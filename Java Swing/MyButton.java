@@ -2,7 +2,7 @@ public class MyButton {
    
     public static void main(String[] args) {
         
-        MyFrame frame1=new MyFrame();
+        MyFrame1 frame1=new MyFrame1();
         frame1.setVisible(true);
         
     }

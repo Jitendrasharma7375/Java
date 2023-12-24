@@ -107,6 +107,7 @@ class LList
             System.out.println();
         }
     } 
+    
 }
 public class Linkedlist {
     public static void main(String[] args) 
