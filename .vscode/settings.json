@@ -1,0 +1,29 @@
+{
+    "java.debug.settings.onBuildFailureProceed": true,
+    "files.associations": {
+        "iostream": "cpp",
+        "ostream": "cpp"
+    },
+    "java.dependency.packagePresentation": "hierarchical",
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "FirstSqlConnection",
+            "database": "vit",
+            "username": "root",
+            "password": "1234"
+        }
+    ],
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "JDBC/mysql-connector-j-8.0.33.jar",
+        "c:\\Program Files\\Java\\jdk-20\\mysql-connector-j-8.0.33.jar"
+    ]
+}
