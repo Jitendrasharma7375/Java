@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class SimpleSieveAlgo {
+public class simpleSieveAlgo {
     public static void main(String[] args) {
         // higher 10^6, 10^8
         int n;
@@ -22,7 +22,10 @@ public class SimpleSieveAlgo {
                 }
             }
         }
-        for(int i=0;i<n;i++)
+        System.out.println("Enter lower and higer range to print prime numbers: ");
+        int l = sc.nextInt();
+        int h = sc.nextInt();
+        for(int i=l;i<h;i++)
         {
             if(prime[i]==true)
                 System.out.print(i+" ");
