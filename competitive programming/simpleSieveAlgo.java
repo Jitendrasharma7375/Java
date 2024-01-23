@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class simpleSieveAlgo {
+public class SimpleSieveAlgo {
     public static void main(String[] args) {
         // higher 10^6, 10^8
         int n;
