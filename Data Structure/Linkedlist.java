@@ -31,6 +31,7 @@ class LList
             head=temp;
             System.out.println("New Element inserted at beginning Sucessfully.");
         }
+        List.close();
     }
     public void insertAtEnd()
     {
@@ -53,6 +54,7 @@ class LList
             temp.link=newNode;
             
         }
+        List.close();
     }
     public void deleteAtBeginning()
     {
@@ -186,6 +188,8 @@ public class Linkedlist {
                 default:
                     System.out.println("Sorry!Invalid Choice.");
             }
+            sc.close();
         }
+        
     }
 }
