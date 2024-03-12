@@ -12,7 +12,7 @@ public class simpleSieveAlgo {
         Arrays.fill(prime, true);
         prime[0] = false;
         prime[1] = false;
-        for(int i=0;i*i<=n;i++)
+        for(int i=2;i*i<=n;i++)
         {
             if(prime[i]==true)
             {
